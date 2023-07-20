@@ -7,7 +7,7 @@ from buttons import *
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = '5689047693:AAEY4yEZocaDOlzoXicCtCko_F2PD3mc8cs'
+BOT_TOKEN = 'YOUR TOKEN'
 
 bot = Bot(token=BOT_TOKEN, parse_mode='Markdown')
 dp = Dispatcher(bot=bot)
